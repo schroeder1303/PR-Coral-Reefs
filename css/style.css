@@ -2,7 +2,7 @@
 body {
 	margin: 1em;
 	padding: 0;
-	background: #aeacbf;
+	background: #91e6f1;
 	font-weight: 300;
 	color: #040404;
 	font-size: 100%;
@@ -68,3 +68,34 @@ hr {
 	height: 700px;
 }
 
+.max-image-width {
+  width: 100%;
+}
+
+/* Use float property to make two-column layout */
+.first-column {
+  float: left;
+  width: 49%;
+  padding-right: 2%;
+}
+
+.column {
+  float: left;
+  width: 49%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* When browser is 900px wide or less */
+@media screen and (max-width: 900px) {
+
+  .first-column,
+  .second-column {
+    width: 100%;
+  }
+}
