@@ -13,7 +13,10 @@ Further Reading:
 
 
 ## The Maps
-1. The interactive map was made using Leaflet 1.9.3, Bootstrap 5.2.3, and tiles from Open Street Map.  The data was sourced from US Census Data API (accessed April 2023).  The interactive map uses unemployment data from the 2020 ACS 5 year report.  Using Java Script the data is
+1. The interactive map was made using Leaflet 1.9.3, Bootstrap 5.2.3, and tiles from Open Street Map.  The data was sourced from US Census Data API (accessed April 2023).  The interactive map uses unemployment data from the 2020 ACS 5 year report.  
+Given Puerto Rico's high unemployment rates, it adds another layer of challenges to an economy that is already struggling and will require more federal funding than they have already received in order to preserve their coastline.
+
+    Java Script was used to call the data and show unemployment rates by county, which is also has classBreaks with a graduated color scheme to show visually the changes in unemployment percentages.  Each county also has a mouseover popup to indicate in the text the name of the county and the percentage of unemployed people.  The opacity was lightened so that the viewer can more easily see the territory outline beneath.
 
 
 2. The static map was made using QGIS 3.24 and data sourced from World Resources Institute (accessed April 2023).  The data includes local threats to coral reefs.  Reef polygons are classified by estimated threat from coastal development. The threat to coral reefs from coastal development was based on size of cities, ports, and airports; size and density of hotels; and coastal population pressure (a combination of population density, growth, and tourism growth). Values of 0 indicate low threat, 100 indicate medium threat, 1000 indicate high threat.
