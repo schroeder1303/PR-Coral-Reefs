@@ -3,7 +3,13 @@ Puerto Rico has been facing significant challenges in recent years, including hi
 
 Short-term solutions, such as beach nourishment, can provide temporary protection against erosion, but may not be sustainable in the long run.  Building bans, such as the one in place in Rincon, Puerto Rico, can be more effective long-term solutions to prevent further development along vulnerable coastal areas.  Other measures, such as bolstering the health of existing coral reefs and introducing artificial coral reefs during non-hurricane seasons, can also protect the shoreline.  Challenges such as lack of funding and support from the federal government, ongoing lawsuits against FEMA, and issues with corruption in infrastructure development make it difficult to rely solely on government-funded solutions. Therefore, local government policies and community engagement are crucial in implementing effective strategies for addressing coastal erosion in Puerto Rico.
 
-Additional reading and links are included at the bottom of the description of the index.html.
+Further Reading:                  
+<ul>
+    <li>Puerto Rico has declared a state of emergency due to coastal erosion. <a href="https://apnews.com/article/puerto-rico-coastal-erosion-state-emergency-1cb74408d61a3feab6480efa69f94d0f">Link</a>.</li>
+    <li>Locals resist coastal development of the island. <a href="https://www.theguardian.com/us-news/2022/jul/23/puerto-rico-beach-anti-gentrification-protests">Link.</a></li>
+    <li>Government says to find to methods to combat coastal erosion as previous short-term solutions have failed. <a href="https://www.drna.pr.gov/noticias/drna-no-recomienda-soluciones-temporeras-ante-problema-de-erosion-costera/">Link.</a> (In Spanish)</li>
+    <li>Puerto Rico groups sue FEMA for ignoring renewable energy sources while rebuilding power grid post Hurricane Maria. <a href="https://www.reuters.com/legal/fema-sued-over-lack-renewables-rebuilding-puerto-ricos-power-grid-2023-04-12/">Link.</a></li>
+</ul>
 
 
 ## The Maps
