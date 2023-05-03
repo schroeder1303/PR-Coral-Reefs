@@ -99,3 +99,55 @@ hr {
     width: 100%;
   }
 }
+
+#legend {
+  padding: 6px 8px;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 1rem;
+  border-radius: 5px;
+  max-width: 200px;
+  color: rgba(244, 244, 244, 0.8);
+  border-radius: 5px;
+}
+
+#legend span {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0 10px 4px 0;
+}
+
+#legend label {
+  font-size: 0.9rem;
+  font-family: 'Libre Caslon Text', serif;
+}
+
+#legend label:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container-fluid {
+  background-color: #333;
+}
+
+#dropdown-ui {
+  appearance: none;
+  outline: none;
+  border: none;
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
