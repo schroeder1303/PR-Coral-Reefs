@@ -1,4 +1,3 @@
-
 body {
 	margin: 1em;
 	padding: 0;
@@ -100,32 +99,31 @@ hr {
   }
 }
 
-#legend {
-  padding: 6px 8px;
-  font-family: 'Libre Caslon Text', serif;
+.legend {
   font-size: 1rem;
   border-radius: 5px;
   max-width: 200px;
-  color: rgba(244, 244, 244, 0.8);
-  border-radius: 5px;
+  font-family: "Goudy Bookletter 1911", serif;
+  background: rgba(89, 98, 99, 0.9);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
-#legend span {
+.legend h3 {
+  font-size: 1.1em;
+  font-weight: normal;
+  color: #ddd;
+  margin: 0 0 10px 0;
+}
+
+.legend span {
   width: 20px;
   height: 20px;
-  float: left;
   margin: 0 10px 4px 0;
 }
 
-#legend label {
+.legend label {
   font-size: 0.9rem;
-  font-family: 'Libre Caslon Text', serif;
-}
-
-#legend label:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .container-fluid {
@@ -152,3 +150,31 @@ hr {
   text-align: center;
 }
 
+a:hover {
+  color: rgb(130, 131, 132);
+  text-decoration: none;
+}
+
+/* Custom Tool tips */
+.leaflet-tooltip-own {
+  background: rgba(58, 58, 58, 0.955);
+  color: rgb(244, 244, 244);
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Goudy Bookletter 1911", serif;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.leaflet-tooltip-left:before {
+  right: 0;
+  margin-right: -12px;
+  border-left-color: rgba(0, 0, 0, 0.4);
+}
+
+.leaflet-tooltip-right:before {
+  left: 0;
+  margin-left: -12px;
+  border-right-color: rgba(0, 0, 0, 0.4);
+}
