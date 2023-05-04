@@ -8,11 +8,11 @@ var options = {
 
   // Leaflet providers base map URL
   var basemap_source =
-    'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
+    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
 
   // Leaflet providers attributes
   var basemap_options = {
-    attribution: '&copy; <a href="&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community</a>',
     subdomains: 'abcd',
     maxZoom: 19
   };
@@ -37,8 +37,8 @@ fetch('/data/PR-Maria.csv')
 .catch(function (error) {
   console.log(error);
 });
-//.then(function () {
-//  addLegend();
+
+  addLegend();
 //});
 
 function drawMap(row) {
@@ -74,6 +74,7 @@ function drawMap(row) {
     circleMarker.bindPopup("<b>" + "Reef Name:" + siteName + "</b><br>" + 
                           "<br>" + "Restoration Potential: " + restorePotential);
   }
+  //addLegend();
 };
 
 // Add legend to map
