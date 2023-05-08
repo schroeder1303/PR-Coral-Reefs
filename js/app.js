@@ -21,7 +21,7 @@ var options = {
   var tiles = L.tileLayer(basemap_source, basemap_options).addTo(map);
 
 // Load the CSV file using AJAX
-fetch('/data/PR-Maria.csv')
+fetch('data/PR-Maria.csv')
 .then(function (response) {
   // Parse the CSV into a useable format, then return it
   return response.text();

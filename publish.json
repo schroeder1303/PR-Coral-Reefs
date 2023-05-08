@@ -1,6 +1,7 @@
 {
-    "id": 1,
-    "name": "Savannah Hunsucker",
-    "username": "schroeder1303",
-    "email": "shuns2@uky.edu"
-}
+    "title": "Threat Level: Puerto Rico", 
+    "info": "...", 
+    "coordinates": [18.296, -66.440], 
+    "author": "@schroeder1303", 
+    "link": "https://schroeder1303.github.io/PR-Coral-Reefs/" 
+  }
